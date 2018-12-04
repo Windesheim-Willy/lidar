@@ -1,8 +1,8 @@
 #!/bin/bash
 
 source /opt/ros/kinetic/setup.bash && \
-apt-get update && \
-apt-get install -y \
+sudo apt-get update && \
+sudo apt-get install -y \
 	ros-kinetic-diagnostic-updater \
         libusb-1.0.0-dev \
         ros-kinetic-xacro \
